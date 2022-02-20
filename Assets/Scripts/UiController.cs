@@ -33,6 +33,11 @@ public class UiController : MonoBehaviour
     {
         ShowScreen<ScreenGregoryNewton>();
     }
+
+    public void ShowScreenSplines()
+    {
+        ShowScreen<ScreenSplines>();
+    }
     
     private  void ShowScreen<T>() where T : IScreen
     {
